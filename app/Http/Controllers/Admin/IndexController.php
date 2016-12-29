@@ -23,4 +23,9 @@ class IndexController extends Controller
     public function mian(){
     	return view('admin/mian');
     }
+
+    //显示内容也页
+    public function webset(){
+        return view('admin/webset');
+    }
 }

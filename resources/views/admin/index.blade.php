@@ -108,10 +108,10 @@
                 <dt>系统设置</dt>
                 <dd>
                     <ul class="clearfix">
-                        <li><a href="javascript:;" _link="webset.html">网站设置</a></li>
-                        <li><a href="javascript:;">伪静态|缓存设置</a></li>
-                        <li><a href="javascript:;">在线客服设置</a></li>
-                        <li><a href="javascript:;">清除系统缓存</a></li>
+                        <li><a href="javascript:;" _link="{{ url('/webset') }}">网站设置</a></li>
+                        <li><a href="javascript:;" _link="webset.html">伪静态|缓存设置</a></li>
+                        <li><a href="javascript:;" _link="webset.html">在线客服设置</a></li>
+                        <li><a href="javascript:;" _link="webset.html">清除系统缓存</a></li>
                     </ul>
                 </dd>
             </dl>

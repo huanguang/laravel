@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+
     return view('welcome');
 });
 //前台首页
@@ -20,6 +21,7 @@ Route::get('index','Home\\IndexController@index');
 Route::get('admin','Admin\\IndexController@index');
 //后台内容页
 Route::get('mian', 'Admin\\IndexController@mian');
+Route::get('webset', 'Admin\\IndexController@webset');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
