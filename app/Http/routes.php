@@ -19,8 +19,12 @@ Route::get('/', function () {
 Route::get('index','Home\\IndexController@index');
 //后台首页
 Route::get('admin','Admin\\IndexController@index');
+
+//Route::resource('admin', 'ArticleController');
 //后台内容页
 Route::get('mian', 'Admin\\IndexController@mian');
+Route::post('webset_config', 'Admin\\IndexController@webset_config');
+
 Route::get('webset', 'Admin\\IndexController@webset');
 Route::auth();
 
